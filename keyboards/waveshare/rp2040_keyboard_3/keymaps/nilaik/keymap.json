@@ -7,9 +7,9 @@
     "layout": "LAYOUT",
     "layers": [
         [
-            "KC_LCTL",
-            "KC_A",
-            "KC_C"
+          "LCTL(KC_A)",
+          "LCTL(KC_C)",
+          "LCTL(KC_V)"
         ]
     ],
     "author": ""
