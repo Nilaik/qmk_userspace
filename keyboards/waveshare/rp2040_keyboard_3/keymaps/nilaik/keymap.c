@@ -19,9 +19,9 @@ enum custom_keycodes {
 // Keys 1 and 2 keep copy / paste here; customize them per layer as you like.
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(CYCLE_LAYER, LCTL(KC_C), LCTL(KC_V)),
-    [1] = LAYOUT(CYCLE_LAYER, KC_BACKSPACE, KC_DELETE),
-    [2] = LAYOUT(CYCLE_LAYER, KC_NO, KC_ESCAPE),
-    [3] = LAYOUT(CYCLE_LAYER, KC_NO, KC_NO),
+    [1] = LAYOUT(CYCLE_LAYER, KC_TAB, KC_ENTER),
+    [2] = LAYOUT(CYCLE_LAYER, KC_BACKSPACE, KC_DELETE),
+    [3] = LAYOUT(CYCLE_LAYER, KC_SPACE, KC_ESCAPE),
     [4] = LAYOUT(CYCLE_LAYER, KC_NO, KC_NO),
     [5] = LAYOUT(CYCLE_LAYER, KC_NO, KC_NO),
     [6] = LAYOUT(CYCLE_LAYER, KC_NO, KC_NO),
