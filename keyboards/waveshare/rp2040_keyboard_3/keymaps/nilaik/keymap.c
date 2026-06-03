@@ -19,13 +19,13 @@ enum custom_keycodes {
 // Keys 1 and 2 keep copy / paste here; customize them per layer as you like.
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(CYCLE_LAYER, LCTL(KC_C), LCTL(KC_V)),
-    [1] = LAYOUT(CYCLE_LAYER, LCTL(KC_C), LCTL(KC_V)),
-    [2] = LAYOUT(CYCLE_LAYER, LCTL(KC_C), LCTL(KC_V)),
-    [3] = LAYOUT(CYCLE_LAYER, LCTL(KC_C), LCTL(KC_V)),
-    [4] = LAYOUT(CYCLE_LAYER, LCTL(KC_C), LCTL(KC_V)),
-    [5] = LAYOUT(CYCLE_LAYER, LCTL(KC_C), LCTL(KC_V)),
-    [6] = LAYOUT(CYCLE_LAYER, LCTL(KC_C), LCTL(KC_V)),
-    [7] = LAYOUT(CYCLE_LAYER, LCTL(KC_C), LCTL(KC_V)),
+    [1] = LAYOUT(CYCLE_LAYER, KC_BACKSPACE, KC_DELETE),
+    [2] = LAYOUT(CYCLE_LAYER, KC_NO, KC_ESCAPE),
+    [3] = LAYOUT(CYCLE_LAYER, KC_NO, KC_NO),
+    [4] = LAYOUT(CYCLE_LAYER, KC_NO, KC_NO),
+    [5] = LAYOUT(CYCLE_LAYER, KC_NO, KC_NO),
+    [6] = LAYOUT(CYCLE_LAYER, KC_NO, KC_NO),
+    [7] = LAYOUT(CYCLE_LAYER, KC_NO, KC_NO),
 };
 
 static bool     cycle_pressed = false; // is key 0 currently held down?
