@@ -24,8 +24,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [3] = LAYOUT(CYCLE_LAYER, KC_SPACE, KC_ESCAPE),
     [4] = LAYOUT(CYCLE_LAYER, KC_NO, KC_NO),
     [5] = LAYOUT(CYCLE_LAYER, KC_NO, KC_NO),
-    [6] = LAYOUT(CYCLE_LAYER, KC_NO, KC_NO),
-    [7] = LAYOUT(CYCLE_LAYER, KC_NO, KC_NO),
+    [6] = LAYOUT(CYCLE_LAYER, KC_AUDIO_VOL_DOWN, KC_AUDIO_VOL_UP),
+    [7] = LAYOUT(CYCLE_LAYER, KC_SYSTEM_SLEEP, KC_SYSTEM_POWER),
 };
 
 static bool     cycle_pressed = false; // is key 0 currently held down?
