@@ -16,6 +16,9 @@
 
 #pragma once
 
+#define CHORDAL_HOLD
+#define PERMISSIVE_HOLD_PER_KEY
+
 // Not yet available in `keymap.json` format
 #ifdef RGB_MATRIX_ENABLE
 #    define RGB_MATRIX_SLEEP
